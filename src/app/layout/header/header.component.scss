@@ -1,0 +1,38 @@
+.header-bg {
+    background: #e1e2e8 !important;
+}
+
+.header-name{
+    text-align: right;
+    display: block;
+    width: 100%;
+}
+
+#navbarNav , .d-inline-block {
+    display : inline-block !important;
+  }
+
+  header{
+    background: #eee;
+    padding: 15px;
+  }
+  .logout{
+    float:right;
+  }
+
+
+  nav a{
+    text-decoration: none;
+    margin-right: 15px;
+  }
+@media only screen and (max-width: 767px) and (min-width: 400px){
+  nav.navbar.navbar-expand-lg.navbar-light.bg-light.header-bg {
+    display: none;
+}
+
+}
+@media only screen and (min-width: 1025px) {
+i.fa.fa-align-justify {
+  display: none !important;
+}
+}

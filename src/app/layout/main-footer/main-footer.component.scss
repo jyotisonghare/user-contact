@@ -1,0 +1,22 @@
+.backend-footer p{
+    margin: 0;
+
+}
+
+.footer-div{
+    padding: 15px 0;
+    color: #333;
+    text-align: center;
+    background-color: #ccc;
+    
+    width: 100%;
+}
+
+@media only screen and (min-width: 340px) and (max-width: 767px) {
+footer {
+    padding: 15px !important;
+    margin-top: 40px !important;
+
+}
+
+}

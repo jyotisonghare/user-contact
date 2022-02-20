@@ -1,0 +1,15 @@
+<header>
+    <nav>
+        <span class="navbar-toggler-icon"></span>
+        <!-- <span>Hello, {{userName | titlecase}}</span> -->
+        <a [routerLink]="['/']" routerLinkActive="active" ><i class="fa fa-bar-chart" aria-hidden="true"></i>
+        Home
+        </a>
+
+        <a [routerLink]="['./contact']" routerLinkActive="active"><i class="fa fa-bar-chart" aria-hidden="true"></i>
+            Contact
+        </a>
+        <a class="logout" href="javascript:void(0)" (click)="logout()">Logout</a>
+        <i class="fa fa-align-justify" (click)="hideShowNavFun()"></i>
+    </nav>
+</header>
